@@ -4,9 +4,14 @@ html {
     font-family: 'Cutive Mono', monospace;
     text-align: center;
 }
+p, ul{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 li {
     list-style: none;
 }
+
 .boldfont {
     font-weight: bold;
 }
@@ -40,9 +45,11 @@ li {
 .imagebox {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 img {  
+    min-width: 200px;
     max-width: 30%;  
     height: auto; 
     border: 1px solid white; 
