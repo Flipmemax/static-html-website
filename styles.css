@@ -14,11 +14,11 @@ li {
     color: red;
 }
 .pagebox {
-    margin-top: 1px;
     border: 1px solid white;
 }
 img {  
     max-width: 100%;  
     height: auto; 
     border: 1px solid white; 
+    margin-bottom: 25px;
     }  
