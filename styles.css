@@ -7,14 +7,36 @@ html {
 li {
     list-style: none;
 }
+.boldfont {
+    font-weight: bold;
+}
 .link {
     color: pink;
 }
 .link:hover{
     color: red;
 }
-.pagebox {
+.blinkbox {
     border: 1px solid white;
+    background-color: black;
+    animation: blink 10s infinite;
+}
+@keyframes blink {
+    0% {
+        background: black;
+    }
+    50% {
+        background: white;
+    }
+}
+.pagebox {  
+    background-color: black;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 98%;
 }
 .imagebox {
     display: flex;
