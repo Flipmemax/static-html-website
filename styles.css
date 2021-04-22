@@ -26,16 +26,16 @@ li {
   color: red;
 }
 .blinkbox {
-    border: 1px solid white;
-    animation: blink 10s infinite;
+  border: 1px solid white;
+  animation: blink 10s infinite;
 }
 @keyframes blink {
-    0%{
-        background: black;
-    }
-    50%{
-        background: white;
-    }
+  0% {
+    background: black;
+  }
+  50% {
+    background: white;
+  }
 }
 .pagebox {
   background-color: black;
@@ -48,7 +48,7 @@ li {
 }
 .menubox {
   background-color: white;
-  color:
+  color: black;
   width: 100;
   height: 20%;
   margin-top: 20px;
